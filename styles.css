@@ -1,3 +1,24 @@
+* {
+    font-family: costa, sans-seri\f;
+}
+
+body {
+    margin: 0;
+}
+#costaLogo {
+    width: 250px;
+}
+
+.heroVideoBox {
+    position: absolute;
+    z-index: -1;
+}
+
+.heroVideo {
+    width: 100vw;
+    position: absolute;
+}
+
 .textColour {
     color: rgb(109, 31, 55);
 }
@@ -37,4 +58,10 @@ p{
     height: 240px;
     background-image: url(./assets/gif/costaCake.gif);
 
+}
+
+@media (max-width:1240px) {
+    #costaLogo {
+        width: 90px;
+    }
 }
