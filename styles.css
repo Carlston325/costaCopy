@@ -102,7 +102,7 @@ p {
 
 /* FEATURES */
 .featureOne {
-background-color: rgb(56, 57, 119);
+    background-color: rgb(56, 57, 119);
 }
 
 .featureTwo {
@@ -113,26 +113,10 @@ background-color: rgb(56, 57, 119);
     background-color: rgb(56, 57, 119);
 }
 
-
-.firstFeatureImage {
-    width: 320px;
-    height: 240px;
-    background-image: url(./assets/gif/costaSandwich.gif);
-   
-}
-
-.secondFeatureImage {
-    width: 320px;
-    height: 240px;
-    background-image: url(./assets/gif/costaDrinks.gif);
-    
-}
-
-.thirdFeatureImage {
-    width: 320px;
-    height: 240px;
-    background-image: url(./assets/gif/costaCake.gif);
-
+.FeatureImage > img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 /* FOOTER BACKGROUND */
