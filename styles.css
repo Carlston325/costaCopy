@@ -101,6 +101,10 @@ p {
 }
 
 /* FEATURES */
+main {
+    min-width: fit-content;
+}
+
 .featureOne {
     background-color: rgb(56, 57, 119);
 }
@@ -168,5 +172,14 @@ p {
         width: auto !important;
         min-height: 60% !important;
         min-width: auto !important;
+    }
+}
+
+@media (min-width:1630px) {  
+    .video {
+        transform: translate(0%, 0%) !important;
+        width: auto !important;
+        min-height: 60% !important;
+        min-width: 100% !important;
     }
 }
