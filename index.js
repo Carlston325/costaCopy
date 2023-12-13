@@ -14,10 +14,21 @@ function getScreenSize() {
 function loadVideoSource() {
     let screenSize = getScreenSize();
 
-    video.pause();
     video.src = videoSrc[screenSize];
-    video.play();
+
 }
 
 loadVideoSource();
 window.addEventListener("resize", loadVideoSource);
+
+window.addEventListener("resize", function(){
+    let screenSize = window.innerWidth;
+
+    if (screenSize <= 1000) {
+        document.querySelector("body > div > div:nth-child(1) > div.container.col-xxl-8.px-4.py-5 > div.row.flex-lg-row-reverse.align-items-center.g-5.my-4.py-5 > div.col-lg-6.text-center").classList.add("text-center");
+    } else {
+        document.querySelector("body > div > div:nth-child(1) > div.container.col-xxl-8.px-4.py-5 > div.row.flex-lg-row-reverse.align-items-center.g-5.my-4.py-5 > div.col-lg-6.text-center").classList.remove("text-center");
+    }
+});
+
+
