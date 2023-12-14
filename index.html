@@ -15,7 +15,52 @@
 <div>
   <div>
     <header>
-      <div class="container py-3">
+      <div class="d-flex flex-column flex-shrink-0 p-3" id="menuSmall">
+        <div class="menuContainer">
+          <div class="menuCard closeMenuBTN">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg text-light" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+            </svg>
+          </div>
+          <div class="menuCard">
+            <a href="/"  class="d-flex align-items-center mb-2 mb-lg-0 text-light text-decoration-none">
+              <img id="costaLogo" class="bi me-2 d-flex" src="./assets/images/costa-coffee-logo__1_.webp" alt="Costa Coffee logo">
+            </a>
+          </div>
+          <!-- LOCATION -->
+          <div class="menuCard">
+            <button type="button" class="btn text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+          <li><a href="#" class="nav-link px-2 text-light fw-bold">Our coffees</a></li>
+          <li><a href="#" class="nav-link px-2 text-light fw-bold">Our menu</a></li>
+          <li><a href="#" class="nav-link px-2 text-light fw-bold">Costa Club</a></li>
+          <li><a href="#" class="nav-link px-2 text-light fw-bold">Order online</a></li>
+          <li><a href="#" class="nav-link px-2 text-light fw-bold">Sustainability</a></li>
+          <li><a href="#" class="nav-link px-2 text-light fw-bold">Gift cards</a></li>
+        </ul>
+        <hr>
+        <!-- LOGIN -->
+        <div>
+          <a href="#" class="d-flex align-items-center text-white text-decoration-none">
+            <button type="button" class="btn text-light me-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi  bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+              </svg>
+            </button>
+            <h4><strong>Log In</strong></h4>
+          </a>
+        </div>
+      </div>
+      <div class="container py-3" id="menuLarge">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a href="/"  class="d-flex align-items-center mb-2 mb-lg-0 text-light text-decoration-none">
             <img id="costaLogo" class="bi me-2" src="./assets/images/costa-coffee-logo__1_.webp" alt="Costa Coffee logo">
