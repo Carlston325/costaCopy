@@ -21,3 +21,7 @@ function loadVideoSource() {
 
 loadVideoSource();
 window.addEventListener("resize", loadVideoSource);
+
+document.querySelector(".closeMenuBTN").addEventListener("click", function() {
+    
+})
