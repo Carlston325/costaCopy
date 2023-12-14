@@ -14,8 +14,9 @@ function getScreenSize() {
 function loadVideoSource() {
     let screenSize = getScreenSize();
 
+    video.pause;
     video.src = videoSrc[screenSize];
-
+    video.play;
 }
 
 loadVideoSource();
