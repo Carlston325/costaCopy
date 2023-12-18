@@ -100,7 +100,7 @@ p {
 
 /* Hero */
 /* menu small screen */
-#menuSmall {
+#headerSmall {
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -121,7 +121,7 @@ p {
     align-self: center;
 }
 
-#menuSmall > div.menuContainer > div:nth-child(3) > button {
+#headerSmall > div.menuContainer > div:nth-child(3) > button {
     position: relative;
     left: 50%;
 }
@@ -361,4 +361,11 @@ main > div {
         min-height: 60% !important;
         min-width: 100% !important;
     }
+}
+
+/* MENU ANIMATION */
+.menuHide {
+    transform:scaleX(50%);
+    transform:translate(-50%);
+    transform:scaleX(0%);
 }
