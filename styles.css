@@ -364,8 +364,30 @@ main > div {
 }
 
 /* MENU ANIMATION */
-.menuHide {
+.menuHide70 {
+    transform:scaleX(70%);
+    transform:translate(-30%);
+    animation-delay: 0.2s;
+}
+
+.menuHide50 {
     transform:scaleX(50%);
     transform:translate(-50%);
+    animation-delay: 0.2s;
+}
+
+.menuHide30 {
+    transform:scaleX(30%);
+    transform:translate(-70%);
+    animation-delay: 0.2s;
+}
+
+.menuHideFULL {
+    display: none;
+    visibility: hidden;
+}
+
+.menuHideNone {
     transform:scaleX(0%);
+    transform:translate(-0%);
 }
